@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<title>KY|Ties</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+<body>
+
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="" title="Navigation Menu">
+            </a>
+            <a href="#home" class="w3-bar-item w3-button">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small">ABOUT</a>
+            <a href="#shop" class="w3-bar-item w3-button w3-hide-small">SHOP</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small">CONTACT</a>
+            </a>
+        </div>
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+            <a href="#shop" class="w3-bar-item w3-button">SHOP</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+        
+        </div>
+    </div>
+
+    <!-- First image w/ Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">
+                <font color=Blue>KY <span class="w3-hide-small">
+                        <font color=White> |
+                    </span> TIES
+            </span>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <font color=black>
+        <div class="w3-content w3-container w3-padding-64" id="about">
+            <h3 class="w3-center">ABOUT KY|TIES</h3>
+            <p>KY|TIES is incorporating traditional Hmong embroidery and designs into a variety of ties. Our designs can be worn casually or at formal events with pride and are easily distinguishable as unique and cultural pieces.</p>
+            <div class="w3-row">
+                <div class="w3-col m6 w3-center w3-padding-large">
+                    <p><b><i class="fa fa-user w3-margin-right"></i>FOUNDER</b></p><br>
+                    <img src="HAHA.jpg" class="w3-round w3-image" alt="laughing Ka" width="500" height="333">
+                </div>
+
+                <!-- Hide this text on small devices -->
+<div class="w3-col m6 w3-hide-small w3-padding-large">
+    <p>Welcome to my website. I am Ka Yeng Vue, founder of KY|TIES. I believe cultural identity is an important part of what makes us who we are in today’s world. KY | Ties’ story began when we were inspired to outfit men and women with classy, yet traditional Hmong-inspired reversible ties. Ka Yeng Vue, founder of KY | Ties, wanted men and women to have an affordable way to stay classy while dressed in authentic Hmong-inspired ties. In 2015, Vue forgot to bring one of two ties he had planned to wear to an event and that was when he realized, “hey, why don’t I make a two-sided tie?!”
+        Each tie is handcrafted, then top-stitched together with a matching reverse side to create our unique Reversible Ties. (Don’t mind the top-stitching). We wanted to give our ties a unique touch of authentic Paj Ntaub (pa dao or Hmong inspired textile) while looking classy in today’s modern society.
+        Here at KY | Ties, each tie is made with its own uniqueness and no two ties (or four - because they are double-sided) are ever the same.
+        In the words of one of our customer and friend, “It’s something bout the way you feel when you hold the tie in your hands.”
+
+        Once and always will be, authentic. </p>
+</div>
+            </div>
+            <p class="w3-large w3-center w3-padding-16">Feedback:</p>
+            <p class="w3-wide">Price Rating</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-padding-small w3-blue w3-center" style="width:90%">90%</div>
+            </div>
+            <p class="w3-wide">Uniqueness</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-padding-small w3-blue w3-center" style="width:100%">100%</div>
+            </div>
+            <p class="w3-wide">Customer Satisfaction Rating</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-padding-small w3-blue w3-center" style="width:110%">110%</div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-center w3-indigo w3-padding-16">
+            <h1>One of my goals is to always give back to the community</h1>
+            <div class="w3-third w3-section">
+                <span class="w3-xlarge">50+</span><br>
+                Sponsorships
+            </div>
+            <div class="w3-third w3-section">
+                <span class="w3-xlarge">100+</span><br>
+                Happy Customers
+            </div>
+            <div class="w3-third w3-section">
+                <span class="w3-xlarge">150+</span><br>
+                Tie donations
+            </div>
+        </div>
+
+        <!-- Second Parallax Image with Shop Text -->
+        <FONT color=blue>
+            <div class="bgimg-2 w3-display-container w3-opacity-min">
+                <div class="w3-display-middle">
+                    <span class="w3-xxlarge w3-wide">SHOP</span>
+                </div>
+            </div>
+
+            <!-- Container (Portfolio Section) -->
+            <div class="w3-content w3-container w3-padding-64" id="shop">
+                <h3 class="w3-center">Latest Ties</h3>
+                <p class="w3-center"><em>Here are some of my latest designs...<br> Click on the images to make them bigger</em></p><br>
+
+                <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+                <div class="w3-row-padding w3-center">
+                    <div class="w3-col m3">
+                        <img src="rainbow.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Rainbow">
+                    </div>
+
+                    <div class="w3-col m3">
+                        <img src="Red.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Red">
+                    </div>
+
+                    <div class="w3-col m3">
+                        <img src="Blue%203.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Blue">
+                    </div>
+
+                    <div class="w3-col m3">
+                        <img src="gold.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Gold">
+                    </div>
+                </div>
+
+                <div class="w3-row-padding w3-center w3-section">
+                    <div class="w3-col m3">
+                        <img src="Kouser%20Green.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The Kouser">
+                    </div>
+
+                    <div class="w3-col m3">
+                        <img src="Powder%20snow.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="snow">
+                    </div>
+
+                    <div class="w3-col m3">
+                        <img src="Traditional%20green.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Traditional">
+                    </div>
+
+                    <div class="w3-col m3">
+                        <img src="backside.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="back">
+                    </div>
+                    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">SEE MORE</button>
+                </div>
+            </div>
+
+            <!-- Modal for full size images on click-->
+            <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+                <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+                <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                    <img id="img01" class="w3-image">
+                    <p id="caption" class="w3-opacity w3-large"></p>
+                </div>
+            </div>
+
+            <!-- Third Parallax Image with Portfolio Text -->
+            <div class="bgimg-3 w3-display-container w3-opacity-min">
+                <div class="w3-display-middle">
+                    <span class="w3-xxlarge w3-text-blue w3-wide">CONTACT</span>
+                </div>
+            </div>
+
+            <!-- Container (Contact Section) -->
+            <div class="w3-content w3-container w3-padding-64" id="contact">
+                <h3 class="w3-center">I'd love to hear from you</h3>
+
+                <div class="w3-row w3-padding-32 w3-section">
+                    <div class="w3-col m4 w3-container">
+                        <img src="packaged.jpg" class="w3-image w3-round" style="width:100%">
+                    </div>
+                    <div class="w3-col m8 w3-panel">
+                        <div class="w3-large w3-margin-bottom">
+                            <i class="fa fa-map-marker fa-fw w3-hover-text-blue w3-xlarge w3-margin-right"></i> Madison, Wi US<br>
+                            <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +1(920)327-1552<br>
+                            <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: kyties@gmail.com<br>
+                        </div>
+                        <p><i class="fa fa-questions"></i>Questions, Concerns, Sponsorships</p>
+                        <form action="/action_page.php" target="_blank">
+                            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                                <div class="w3-half">
+                                    <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                                </div>
+                                <div class="w3-half">
+                                    <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                                </div>
+                            </div>
+                            <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                            <button class="w3-button w3-black w3-right w3-section" type="submit">
+                                <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+    
+
+</body>
+<footer>
+ 
+  <p>Created by: James Thao</p>
+</footer>
+</html>
